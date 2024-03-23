@@ -1,4 +1,3 @@
-
 async function getCurrentImageOfTheDay() {
     const data = await getData();
     display(data, true);
